@@ -1,5 +1,5 @@
 <templateSet group="MyGroup1">
-  <template name="cmmt" value="/**&#10; * @author: $user$&#10; * @date: $date$&#10; * @description: &#10;*/" toReformat="false" toShortenFQNames="true">
+  <template name="cmmt" value="/**&#10; * @author: $user$&#10; * @date: $date$&#10; * @description: &#10;*/" description="" toReformat="false" toShortenFQNames="true">
     <variable name="user" expression="user()" defaultValue="weiyi" alwaysStopAt="true" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <context>
